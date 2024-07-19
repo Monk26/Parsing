@@ -18,7 +18,7 @@ head = {
 with open("all_categoties_dict.json", "r", encoding="utf-8") as file:
     all_categories = json.load(file)
 
-iteration_count = len(all_categories) - 1
+
 count = 0
 k = 0
 for name, href in all_categories.items():
